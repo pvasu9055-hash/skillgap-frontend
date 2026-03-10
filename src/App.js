@@ -73,7 +73,7 @@ export default function App() {
             onChange={(e) => setStudentSkills(e.target.value)}
             placeholder="java, spring boot, sql, git, docker ..."
           />
-          <div style={styles.hint}>// separate each skill with a comma</div>
+             <div style={styles.hint}>Separate each skill with a comma</div>
         </div>
 
         {/* Job Skills Input */}
@@ -85,7 +85,7 @@ export default function App() {
             onChange={(e) => setJobSkills(e.target.value)}
             placeholder="java, kubernetes, react, aws, microservices ..."
           />
-          <div style={styles.hint}>// paste skills from the job posting</div>
+            <div style={styles.hint}>Paste skills from the job posting</div>
         </div>
 
         {/* Analyze Button */}
