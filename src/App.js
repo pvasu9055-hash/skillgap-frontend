@@ -28,7 +28,7 @@ export default function App() {
       }
       setResult(data);
     } catch {
-      setError("Cannot reach backend. Is Spring Boot running on port 8080?");
+       setError("Server waking up... please wait a few seconds and try again.");
     } finally {
       setLoading(false);
     }
