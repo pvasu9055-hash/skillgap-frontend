@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from "react";
 
-const API = "http://skillgap-env-2.eba-wm2ijn6q.ap-south-1.elasticbeanstalk.com";
+const API = "https://skillgap-api.vasutech.online";
 
 // ─── Token helpers ───────────────────────────────────────────────
 const getToken = () => localStorage.getItem("sg_token");
